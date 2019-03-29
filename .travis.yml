@@ -1,8 +1,7 @@
-    - language: c  
+     language: c  
       sudo: false # only for faster builds  
       compiler:
-        - clang
         - gcc
       script:  
-        - gcc -o sample hello.c 
-        - ./sample
+        - gcc -o hello hello.c 
+        - ./hello
